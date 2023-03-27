@@ -1,0 +1,12 @@
+{
+    "name": "app/mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\Mvc\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dotenv": "^6.2",
+        "symfony/http-foundation": "^6.2"
+    }
+}
